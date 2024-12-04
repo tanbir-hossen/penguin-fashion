@@ -1,14 +1,74 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="./src/output.css" rel="stylesheet">
-</head>
-<body>
-  <h1 class="text-3xl font-bold underline bg-yellow-200">
-    Hello world!
-  </h1>
-  <div class="bg-purple-500">d</div>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link href="./src/output.css" rel="stylesheet" />
+  </head>
+  <body>
+    <section class="bg-orange-50">
+      <header class="flex justify-between pt-7 px-4 items-center">
+        <a href="/">
+          <img
+            src="./src/icons/logo.png"
+            alt="Penguin Fashion Logo"
+            class="w-44 md:w-56"
+          />
+        </a>
+        <nav>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="size-8 md:hidden"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+            />
+          </svg>
+        </nav>
+      </header>
+      <div class="max-w-[370px] pl-4 mt-12">
+        <h1 class="text-6xl font-heading">
+          <span class="text-[#FABE4C]">Be the Penguins</span>
+          <span class="text-[#363958]">of Winter</span>
+        </h1>
+        <p class="max-w-[300px] mb-6 font-roboto text-base text-[#3E3E3E]">
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry.
+        </p>
+        <a href="/" class="flex items-center w-fit px-6 py-3 rounded-md bg-gradient-to-b from-[#A4BC46] to-[#85A019] font-roboto font-medium text-white">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="2"
+            stroke="currentColor"
+            class="size-5 mr-2"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M15.75 10.5V6a3.75 3.75 0 1 0-7.5 0v4.5m11.356-1.993 1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 0 1-1.12-1.243l1.264-12A1.125 1.125 0 0 1 5.513 7.5h12.974c.576 0 1.059.435 1.119 1.007ZM8.625 10.5a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm7.5 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z"
+            />
+          </svg>
+          BUY NOW
+        </a>
+      </div>
+      <div>
+        <img src="./src/images/model.png" alt="Hero Model Image" class="w-3/4 mx-auto mt-14 pb-16">
+      </div>
+    </section>
+    <main></main>
+  </body>
 </html>
